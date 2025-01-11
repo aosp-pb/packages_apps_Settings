@@ -30,6 +30,11 @@
         settings:controller="com.android.settings.notification.RemoteVolumeGroupController">
     </PreferenceCategory>
 
+    <com.android.settingslib.widget.IllustrationPreference
+        android:key="sound_illustration"
+        settings:lottie_rawRes="@raw/sound_illustration"
+        android:order="-1001" />
+
     <!-- Media output switcher -->
     <Preference
         android:key="media_output"
