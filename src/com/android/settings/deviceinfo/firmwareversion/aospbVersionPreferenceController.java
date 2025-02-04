@@ -28,7 +28,7 @@ public class aospbVersionPreferenceController extends BasePreferenceController {
 
     private static final String TAG = "aospbVersionPreferenceController";
     private static final String ROM_PROPERTY = "ro.custom.showversion";
-    private static final String AOSPB_WEBSITE_URL = "https://github.com/aosp-pb";
+    private static final String AOSPB_WEBSITE_URL = "https://github.com/aospb-project";
 
     public aospbVersionPreferenceController(Context context, String key) {
         super(context, key);
